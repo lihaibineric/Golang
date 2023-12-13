@@ -30,7 +30,7 @@ func main(){
 		fmt.Println("A")
 	} ()
 
-	//对于goroutine的形式没办法拿到返回的bool值
+	//对于goroutine的形式没办法拿到返回的bool值 无法拿到当前的值
 	go func(a int ,b int)bool{
 		fmt.Println("a = ",a, ",b = ", b)
 		return true
