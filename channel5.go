@@ -12,7 +12,7 @@ func fibonacii(c , quit chan int){
 			//如果c可写，则该case就会执行
 			x = y
 			y = x + y
-		case <-quit ://如果这个时候quet可读，说明塞进了一个0
+		case <-quit ://如果这个时候quit可读，说明塞进了一个0
 			fmt.Println("quit")
 			return
 		}

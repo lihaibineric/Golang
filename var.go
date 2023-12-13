@@ -54,4 +54,7 @@ func main() {
 		jj bool = true
 	)
 	fmt.Println("vv=", vv, "jj=", jj)
+
+	var aa = 0
+	fmt.Println(string(aa+97))
 }
