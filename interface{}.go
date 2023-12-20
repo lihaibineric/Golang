@@ -33,5 +33,5 @@ func main() {
 	book := Book{"golang"}
 	myFunc(book) //{golang}
 	myFunc(100)  //100
-
+	myFunc("goland")
 }

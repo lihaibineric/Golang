@@ -55,13 +55,13 @@ import (
 //       for i := 1; i <= 26; i++ {
 // 		c <- 0
 //         fmt.Println(i)
-// 		// <-c
+// 		<-c
 //       }
 //    }()
 // 	for i := 1; i <= 26; i++ {
 //         <-c
 //         fmt.Println(string(96+i))
-// 		// c<-0
+// 		c<-0
 //     }
 // }
 
@@ -108,3 +108,4 @@ func main() {
 			<-c
 	}
 }
+
